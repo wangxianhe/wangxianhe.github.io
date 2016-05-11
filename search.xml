@@ -9,7 +9,7 @@
       <content type="html"><![CDATA[<h2 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h2><p>gcc 编译时报错，编译不过去，报错其中之一有<code>Error: no such instruction: &#39;shrx %esi,%edx,%esi&#39;</code></p>
 <h2 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h2><p>去掉gcc编译时的<code>-march=native</code>FLAG</p>
 <p>具体操作是在<code>configure</code>文件中找到<code>-march=native</code>，把相关语句注释掉，详见如下：</p>
-<pre><code>   if &apos;ARCH&apos; in os.environ.keys():
+<pre><code>    if &apos;ARCH&apos; in os.environ.keys():
 419   march = os.environ[&apos;ARCH&apos;]
 420   report (&apos;Machine architecture set by ARCH environment variable to: &apos; + march + &apos;\n&apos;)
 421   cpp_flags += [ &apos;-march=&apos;+march ]
