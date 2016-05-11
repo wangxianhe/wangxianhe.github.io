@@ -4,6 +4,23 @@
   
     
     <entry>
+      <title><![CDATA[mrtrix3 安装遇到的问题]]></title>
+      <url>http://xianhewang.github.io/2016/05/11/mrtrix3%20%E5%AE%89%E8%A3%85%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      <content type="html"><![CDATA[<p>##问题描述：</p>
+<p>gcc 编译时报错，编译不过去，报错其中之一有<code>Error: no such instruction: &#39;shrx %esi,%edx,%esi&#39;</code></p>
+<h2 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h2><p>去掉gcc编译时的<code>-march=native</code>FLAG</p>
+<p>具体操作是在<code>configure</code>文件中找到<code>-march=native</code>，把相关语句注释掉，详见如下：</p>
+<pre><code>   if &apos;ARCH&apos; in os.environ.keys():
+419   march = os.environ[&apos;ARCH&apos;]
+420   report (&apos;Machine architecture set by ARCH environment variable to: &apos; + march + &apos;\n&apos;)
+421   cpp_flags += [ &apos;-march=&apos;+march ]
+422 #else:
+423 #  if system != &apos;darwin&apos;:
+424 #cpp_flags += [ &apos;-march=native&apos; ]
+</code></pre>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[找合作者要小心]]></title>
       <url>http://xianhewang.github.io/2016/05/03/%E6%89%BE%E5%90%88%E4%BD%9C%E8%80%85%E8%A6%81%E5%B0%8F%E5%BF%83/</url>
       <content type="html"><![CDATA[<p>千万别找猪一样的队友，否则气不打一处来。。。。。。</p>
