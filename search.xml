@@ -69,16 +69,16 @@
     </entry>
     
     <entry>
-      <title><![CDATA[hexo命令及Markdown语法]]></title>
-      <url>http://xianhewang.github.io/2016/04/28/hexo%E5%91%BD%E4%BB%A4%E5%8F%8AMarkdown%E8%AF%AD%E6%B3%95/</url>
-      <content type="html"><![CDATA[<p>参考：<br><a href="http://www.markdown.cn/" target="_blank" rel="external">markdown官方说明</a><br><a href="http://wowubuntu.com/markdown/" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a><br><a href="http://syxiaqj.github.io/2014/02/23/write-blog-with-markdown/" target="_blank" rel="external">hexo命令及Markdown语法</a></p>
+      <title><![CDATA[Hexo搭建Github静态博客]]></title>
+      <url>http://xianhewang.github.io/2016/04/28/Hexo%E6%90%AD%E5%BB%BAGithub%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</url>
+      <content type="html"><![CDATA[<p>参考：<br><a href="https://hexo.io/zh-cn/docs/commands.html" target="_blank" rel="external">官方说明</a><br><a href="http://www.cnblogs.com/zhcncn/p/4097881.html" target="_blank" rel="external">Hexo搭建Github静态博客</a></p>
 ]]></content>
     </entry>
     
     <entry>
-      <title><![CDATA[Hexo搭建Github静态博客]]></title>
-      <url>http://xianhewang.github.io/2016/04/28/Hexo%E6%90%AD%E5%BB%BAGithub%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</url>
-      <content type="html"><![CDATA[<p>参考：<br><a href="https://hexo.io/zh-cn/docs/commands.html" target="_blank" rel="external">官方说明</a><br><a href="http://www.cnblogs.com/zhcncn/p/4097881.html" target="_blank" rel="external">Hexo搭建Github静态博客</a></p>
+      <title><![CDATA[hexo命令及Markdown语法]]></title>
+      <url>http://xianhewang.github.io/2016/04/28/hexo%E5%91%BD%E4%BB%A4%E5%8F%8AMarkdown%E8%AF%AD%E6%B3%95/</url>
+      <content type="html"><![CDATA[<p>参考：<br><a href="http://www.markdown.cn/" target="_blank" rel="external">markdown官方说明</a><br><a href="http://wowubuntu.com/markdown/" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a><br><a href="http://syxiaqj.github.io/2014/02/23/write-blog-with-markdown/" target="_blank" rel="external">hexo命令及Markdown语法</a></p>
 ]]></content>
     </entry>
     
